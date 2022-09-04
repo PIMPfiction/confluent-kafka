@@ -7,6 +7,6 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - uses: PIMPfiction/AutoTagVersionRelease@v2
+      - uses: PIMPfiction/AutoTagVersionRelease@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN}}
+          github-token: ${{ secrets.GITHUB_TOKEN}}
